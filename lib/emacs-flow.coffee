@@ -12,5 +12,11 @@ class EmacsFlow
     return unless editor
 
     [row, _] = editor.getCursorBufferPosition().toArray()
-    console.log(row)
-    editor.indentSelectedRows(row)
+    line = editor.selections[0].cursor.getBufferRow()
+    if editor.selections[0].isEmpty()
+      if /\s/.test(editor.buffer.lines[row])
+        editor.indentSelectedRows(row)
+      else
+        editor.indent()
+    else
+      editor.indentSelectedRows(row)
