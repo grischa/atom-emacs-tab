@@ -15,8 +15,9 @@ class EmacsFlow
     line = editor.selections[0].cursor.getBufferRow()
     if editor.selections[0].isEmpty()
       if /\s/.test(editor.buffer.lines[row])
-        editor.indentSelectedRows(row)
+        editor.autoIndentSelectedRows(row)
       else
-        editor.indent()
+        # editor.indent()
+        editor.autoIndentSelectedRows()
     else
-      editor.indentSelectedRows(row)
+      editor.autoIndentSelectedRows(row)
