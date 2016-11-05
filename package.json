@@ -6,7 +6,7 @@
   "repository": "https://github.com/grischa/atom-emacs-tab",
   "license": "MIT",
   "engines": {
-    "atom": ">=0.164.0"
+    "atom": ">=1.0"
   },
   "dependencies": {},
   "devDependencies": {
