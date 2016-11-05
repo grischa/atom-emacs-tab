@@ -1,9 +1,9 @@
 {
-  "name": "emacs-flow",
+  "name": "emacs-tab",
   "main": "./lib/index",
-  "version": "0.1.2",
-  "description": "Offers Emacs-like indentation functionality",
-  "repository": "https://github.com/ComputationalPhysics/emacs-flow",
+  "version": "0.1",
+  "description": "Makes the tab key behave like it does in Emacs",
+  "repository": "https://github.com/grischa/atom-emacs-tab",
   "license": "MIT",
   "engines": {
     "atom": ">=0.164.0"
