@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## **v0.1.1** &mdash; *Released: 17 August 2017*
+
+* Update for the latest APIs.
+
 ## **v0.1.0** &mdash; *Released: 21 December 2014*
 
 * Update for the latest APIs. This version is only compatible with Atom v0.164.0 and up.
