@@ -1,6 +1,6 @@
 # CHANGELOG
 
-## **v0.1.1** &mdash; *Released: 17 August 2017*
+## **v0.2.0** &mdash; *Released: 17 August 2017*
 
 * Update for the latest APIs.
 
